@@ -33,7 +33,7 @@ This script implements a RAG system with the following features:
 ### Usage
 
 1. Set up environment variables in `.env`:
-   ```
+   ```env
    MONGO_URI=your_mongodb_connection_string
    pdf_path=path_to_pdf
    csv_path=path_to_csv
@@ -42,7 +42,7 @@ This script implements a RAG system with the following features:
    ```
 
 2. Run the script:
-   ```python
+   ```zsh
    python script.py
    ```
 
